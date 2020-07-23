@@ -45,3 +45,13 @@ and then install with:
 ```
 bundle install
 ```
+
+## Developing
+
+```bash
+bundle install
+bundle exec rake
+
+# to generate a compile_commands.json file for clangd
+bundle exec rake compile_commands
+```

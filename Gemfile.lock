@@ -6,11 +6,16 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    rake (12.3.2)
+    rake-compiler (1.1.1)
+      rake
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  rake
+  rake-compiler
   stop_in_debugger!
 
 BUNDLED WITH

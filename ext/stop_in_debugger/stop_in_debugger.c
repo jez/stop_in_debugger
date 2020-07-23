@@ -4,7 +4,7 @@
 __attribute__((noinline))
 static VALUE stop_in_debugger(VALUE self) {
   __asm__("int $3");
-  Qnil;
+  return Qnil;
 }
 
 void Init_stop_in_debugger() {
