@@ -5,7 +5,7 @@ __attribute__((noinline))
 static VALUE stop_in_debugger(VALUE self) {
   __asm__("int $3");
   return Qnil;
-}
+} // 👋 Type 'finish' to return from this function, or add breakpoints and type 'continue'.
 
 void Init_stop_in_debugger() {
   VALUE cStopInDebugger;

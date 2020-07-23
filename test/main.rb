@@ -1,5 +1,5 @@
 # typed: true
-require_relative '../lib/stop_in_debugger'
+require 'stop_in_debugger'
 
 def hello
   puts 'Hello, world!'
