@@ -20,12 +20,15 @@ StopInDebugger.stop_in_debugger
 hello
 ```
 
-A sample debugger session:
+A sample debugger session looks like this:
 
 ```
-❯ lldb -- ruby test/main.rb
-TODO(jez)
+❯ bundle exec lldb -- $(rbenv which ruby) test/main.rb
 ```
+
+Or with colors:
+
+![lldb session using stop in debugger](#TODO)
 
 From there, you can add whatever breakpoints you want. This works best when
 you've built Ruby with debug symbols and no optimizations.
