@@ -6,13 +6,3 @@ os:
   - osx
 
 before_install: gem install bundler
-
-deploy:
-  provider: rubygems
-  api_key:
-    secure: So3EmqgB/lKUXg2Wd69u0o/QbmcwsXwBhmaGMUmLaz1gEMVBXGo4Kcj/n5QgQkIdv2IlNHjUjfTEhnW0Fy+84qMzwz6U08Xpf2c+GBVWjSF2HvwfKI+yO1n9GMHqWPjYC4EMr51gNlqoMl/jUJmKdaEHScndp++q/ET5iaXU8Vn7hR0DMDVwdc7VQc8tnTCb1JVI3aYKIWkdXqAzpWwk8a9/HWCfKmz0fiURY2O1uzbYY28aPskaznTEMW3StGSk8mybXnbg+WaCw7HGTSKVGZKlot8d1yvwkGLw+IGJ257KzlMhJ9FxADhMxjmd8ukwiODO9rQ1K7p/tUIBg8ePQLqhtTOIE8rvUVBt4JuBD+SQt5K8URClg3qLInHXdGiONf9DyOZl2NqHZi0g5N/DWGd2jbmS80tAft5QNCBrWoLUe3aLLVmEn1uTmTBGGfj+7hr4IEN8qK+zIVy52pdjoagp6Nio4zAx6lLWi29lFCenLxyQVq8nZ3sYtF25G3xBowerrjrgusF3Ze43cmD8G9sNXFnV8SiCGATXVWe2FGgHCI3KkXNlw7d7pAgXWSjDd0Cm51WBbGkiz4Hb8f5xCwYgWLJG6l4nXi3daoCay7eP5aCZYiNxO2bNmkIQJ7sN6l9iscJRb27xWhfL4FhR2ZiGBiMq0YaEq5mQVf1d2eg=
-  gem: stop_in_debugger
-  on:
-    tags: true
-    repo: jez/stop_in_debugger
-  skip_cleanup: 'true'

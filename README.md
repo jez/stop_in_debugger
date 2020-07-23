@@ -57,4 +57,12 @@ bundle exec rake
 
 # to generate a compile_commands.json file for clangd
 bundle exec rake compile_commands
+
+# to release a version
+# -- edit version in stop_in_debugger.gemspec --
+git commit -am 'Bump version'
+git tag <version>
+git push --tags origin master
+gem build stop_in_debugger
+gem push stop_in_debugger-*.gem
 ```
