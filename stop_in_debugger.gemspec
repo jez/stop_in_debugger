@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.extensions    = ["ext/stop_in_debugger/extconf.rb"]
 
-  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rake', '>= 12.3.3'
   spec.add_development_dependency 'rake-compiler'
 end
