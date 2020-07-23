@@ -28,7 +28,7 @@ A sample debugger session looks like this:
 
 Or with colors:
 
-![lldb session using stop in debugger](#TODO)
+![lldb session using stop in debugger](lldb-example.png)
 
 From there, you can add whatever breakpoints you want. This works best when
 you've built Ruby with debug symbols and no optimizations.
