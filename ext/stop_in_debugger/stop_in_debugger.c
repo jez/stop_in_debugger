@@ -9,6 +9,6 @@ static VALUE stop_in_debugger(VALUE self) {
 
 void Init_stop_in_debugger() {
   VALUE cStopInDebugger;
-  cStopInDebugger = rb_define_class("StopInDebugger", rb_cObject);
+  cStopInDebugger = rb_define_module("StopInDebugger");
   rb_define_singleton_method(cStopInDebugger, "stop_in_debugger", stop_in_debugger, 0);
 }
